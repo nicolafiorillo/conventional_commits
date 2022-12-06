@@ -1,7 +1,7 @@
 # Conventional Commits
 
 This is the (opinionated) format of conventional commit message specification I tend to follow.
-It adheres to the (Conventional commits)[https://www.conventionalcommits.org] specifications.
+It adheres to the [Conventional commits](https://www.conventionalcommits.org) specifications.
 
 ## Goals
 
