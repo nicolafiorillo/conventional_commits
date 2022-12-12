@@ -14,7 +14,7 @@ It adheres to the [Conventional commits](https://www.conventionalcommits.org) sp
 Data in [] are optional.
 
 ```
-<type>[scope][!]: <subject (imperative, present tense, lowercase, no dot at end)>
+<type>[$<scope>][!]: <description (imperative, present tense, lowercase, no dot at end)>
 
 [ Body section.
 
@@ -25,7 +25,9 @@ Data in [] are optional.
 
 [BREAKING CHANGE: <description, multiline>]
 
-[<footer(s)>]
+[
+  <footer(s)>]
+]
 
 [
   - Additional links and meta-information
@@ -65,7 +67,7 @@ Someone use it in the form of `$a_scope`.
 
 You can use `*` or `other` if there isn't a more fitting scope.
 
-## Subject
+## Description
 
 * use the imperative, present tense (eg. "change" not "changed" nor "changes")
 * don't capitalize the first letter
