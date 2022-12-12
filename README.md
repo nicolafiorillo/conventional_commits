@@ -16,28 +16,28 @@ Data in [] are optional.
 ```
 <type>[$<scope>][!]: <description (imperative, present tense, lowercase, no dot at end)>
 
-[ Body section.
-
+[
+  Body section.
   Motivation for the change and contrast with previous behaviour.
-
   Can span multiple lines.
 ]
 
 [BREAKING CHANGE: <description, multiline>]
 
 [
-  <footer(s)>]
-]
-
-[
+  footer
+  footer
+  ...
   - Additional links and meta-information
+  - Additional links and meta-information
+  - ...
 ]
 ```
 
 ## Types
 
 ```
-type = fix¦feat  (custom types are allowed)
+type = fix¦feat¦...  (custom types are allowed)
 ```
 
 * `!`: draw attention to breaking change
